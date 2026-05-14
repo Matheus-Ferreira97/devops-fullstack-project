@@ -4,7 +4,7 @@ function App() {
   const [health, setHealth] = useState("Loading...");
 
   useEffect(() => {
-    fetch("http://54.198.4.36:3000/health")
+    fetch("/api/health")
       .then((response) => response.json())
       .then((data) => {
         setHealth(data.message);
