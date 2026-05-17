@@ -55,7 +55,7 @@ AWS EC2 Ubuntu Server
 * AWS EC2
 * Linux
 * DuckDNS
-
+* GitHub Actions (CI/CD)
 ---
 
 ## Features
@@ -67,7 +67,7 @@ AWS EC2 Ubuntu Server
 * Cloud deployment on AWS
 * Health check endpoint
 * Environment variables
-
+* Automated deployment pipeline with GitHub Actions
 ---
 
 ## Live Demo
@@ -115,6 +115,6 @@ Response:
 * Terraform
 * Kubernetes
 * Monitoring
-
+* CI/CD with GitHub Actions
 ```
 ```
