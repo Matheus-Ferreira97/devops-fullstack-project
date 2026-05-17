@@ -26,11 +26,6 @@ Docker Containers
 AWS EC2 Ubuntu Server
 ```
 
----
-
-## Architecture Diagram
-
-![Architecture](./screenshots/architecture-clean.png)
 
 ---
 
