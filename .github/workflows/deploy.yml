@@ -11,7 +11,7 @@ runs-on: ubuntu-latest
 
 ```
 steps:
-  - name: Connect and Deploy
+  - name: Deploy application
     uses: appleboy/ssh-action@master
 
     with:
@@ -21,10 +21,7 @@ steps:
 
       script: |
         cd ~/devops-fullstack-project
-
         git pull origin main
-
         sudo docker compose down
-
         sudo docker compose up -d --build
 ```
